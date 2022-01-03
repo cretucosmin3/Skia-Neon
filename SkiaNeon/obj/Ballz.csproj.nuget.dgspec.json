@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GithubRepos\\mine\\Skia-Neon\\SkiaNeon\\Ballz.csproj": {}
+  },
+  "projects": {
+    "C:\\GithubRepos\\mine\\Skia-Neon\\SkiaNeon\\Ballz.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GithubRepos\\mine\\Skia-Neon\\SkiaNeon\\Ballz.csproj",
+        "projectName": "SkiaNeon",
+        "projectPath": "C:\\GithubRepos\\mine\\Skia-Neon\\SkiaNeon\\Ballz.csproj",
+        "packagesPath": "C:\\Users\\CosminCretuMinsterso\\.nuget\\packages\\",
+        "outputPath": "C:\\GithubRepos\\mine\\Skia-Neon\\SkiaNeon\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CosminCretuMinsterso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Silk.NET": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Silk.NET.Core": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Silk.NET.Windowing.Common": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Silk.NET.Windowing.Glfw": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.0-preview.179, )"
+            },
+            "SkiaSharp.NativeAssets.Linux": {
+              "target": "Package",
+              "version": "[2.88.0-preview.179, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
